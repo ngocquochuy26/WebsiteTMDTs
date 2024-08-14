@@ -22,6 +22,7 @@ namespace WebsiteTMDT.Areas.Admin.Models.EF
         public decimal PriceSale { get; set; }
         public int Quality { get; set; }
         public bool IsHome { get; set; }
+        public bool IsHot { get; set; }
         public bool IsSale { get; set; }
         public bool IsFeature { get; set; }
         public string? SeoTitle { get; set; }
